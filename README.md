@@ -24,3 +24,13 @@ name Columns.
 ## My Oversight 
 
 I made the assumption that all of the names that need to be split had only a first and last name.  I was wrong! Somehow 'Chad Michael Murray' (famous actor name) did not catch my eye or cause any trouble when I was splitting text to columns in the spreadsheet.  
+
+## Solutions
+
+[Simple Solution](solution.ipynb)
+[Advanced Solution](advanced_solution.ipynb)
+
+
+## Conclusions
+
+I was correct in my assumption that it would be easy to overlook errors in data while working in a spreadsheet and that it is safer to wrangle data using pandas and python.
