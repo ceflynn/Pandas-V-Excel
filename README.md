@@ -13,14 +13,14 @@ Then I tried to create a solution with some "less clean" data added to the datas
 * Split Guardian (Column B) and Scholar (Column E) names into separate First and Last
 name Columns.
 * Split Complete Address (Column D) into these separate Columns
-    o Address (including unit numbers)
-    o City
-    o State
-    o Zip
+    ** Address (including unit numbers)
+    ** City
+    ** State
+    ** Zip
 * Convert Scholar Grades (Column F) into this consistent format
-    o Kindergarten
-    o 1st
-    o 2nd
+    ** Kindergarten
+    ** 1st
+    ** 2nd
 ## My Oversight 
 
 I made the assumption that all of the names that need to be split had only a first and last name.  I was wrong! Somehow 'Chad Michael Murray' (famous actor name) did not catch my eye or cause any trouble when I was splitting text to columns in the spreadsheet.  
