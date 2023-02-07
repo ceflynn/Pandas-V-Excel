@@ -38,4 +38,4 @@ The advanced solution expands on the name function to create an opportunity to h
 
 ## Conclusions
 
-I was correct in my assumption that it would be easy to overlook errors in data while working in a spreadsheet and that it is safer to wrangle data using pandas and python.
+I was correct in my assumption that it would be easy to overlook errors in data while working in a spreadsheet and that it is safer to wrangle data using pandas and python.  So when would I still use Excel or Sheets... To be continued
