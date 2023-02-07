@@ -13,14 +13,14 @@ Then I tried to create a solution with some "less clean" data added to the datas
 * Split Guardian (Column B) and Scholar (Column E) names into separate First and Last
 name Columns.
 * Split Complete Address (Column D) into these separate Columns
-** Address (including unit numbers)
-** City
-** State
-** Zip
+*   Address (including unit numbers)
+*   City
+*   State
+*   Zip
 * Convert Scholar Grades (Column F) into this consistent format
-** Kindergarten
-** 1st
-** 2nd
+*   Kindergarten
+*   1st
+*   2nd
 ## My Oversight 
 
 I made the assumption that all of the names that need to be split had only a first and last name.  I was wrong! Somehow 'Chad Michael Murray' (famous actor name) did not catch my eye or cause any trouble when I was splitting text to columns in the spreadsheet.  
@@ -28,7 +28,12 @@ I made the assumption that all of the names that need to be split had only a fir
 ## Solutions
 
 [Simple Solution](solution.ipynb)
+
+The simple solution notebook will split the two name columns. It uses the scourgif library to get the parts of the address and a simple dictionary to get the correct grade levels entered.
+
 [Advanced Solution](advanced_solution.ipynb)
+
+The advanced solution expands on the name function to create an opportunity to handle multiple word first and last names.  These would ultimately need to be verified in a real situation.  The address funciton only needed to be slightly adjusted to allow for 2 line street addresses.  And finally the grade level functions were modified with a user entry option and a more detailed dictionary.
 
 
 ## Conclusions
